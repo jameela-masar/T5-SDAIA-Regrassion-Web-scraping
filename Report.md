@@ -18,15 +18,11 @@ Feature Engineering:
 -apply log for Price
 Models:
 Linear Regression,Polynomial Regression,Ridge regression,Elastic net regularization ,Lasso(Least Absolute Shrinkage and Selection Operator)
-Model Evaluation and Selection:
 In the beginning, the data was divided into 80 percent training data and 20 percent testing data. To train the model, we used the training data and did a cross-validation (K-fold CV) where K = 5 to compare several models and choose the best among them, then integrate the trained data and train it on the best model, and finally test the model using the test data that the model has not been trained on.
-The model performance was evaluated using mean absolute error, mean squared error, root mean square error, and R2.
+
 The best model:
 Linear Regression:
 R2 Square->0.97808
-RMSE->227185.657678
-MSE->5.161332e+10	
-MAE->118017.869849
 # Tools:
 Numpy and Pandas for Data Manipulation, Matplotlib and Seaborn for Data Visualization, sklearn(ElasticNet,Lasso,LinearRegression,Ridge)for model,sklearn(train_test_split,KFold)for model selection,sklearn(StandardScaler,PolynomialFeatures) for preprocessing, sklearn(metrics)for evaluation,Program: Jupyter Notebook
 # Communication: 
